@@ -1,0 +1,14 @@
+D:\Weather App\Weather\Weather\obj\Debug\Weather.csproj.AssemblyReference.cache
+D:\Weather App\Weather\Weather\obj\Debug\Weather.csproj.SuggestedBindingRedirects.cache
+D:\Weather App\Weather\Weather\obj\Debug\Weather.main.resources
+D:\Weather App\Weather\Weather\obj\Debug\Weather.Properties.Resources.resources
+D:\Weather App\Weather\Weather\obj\Debug\Weather.csproj.GenerateResource.cache
+D:\Weather App\Weather\Weather\obj\Debug\Weather.csproj.CoreCompileInputs.cache
+D:\Weather App\Weather\Weather\bin\Debug\Weather.exe.config
+D:\Weather App\Weather\Weather\bin\Debug\Weather.exe
+D:\Weather App\Weather\Weather\bin\Debug\Weather.pdb
+D:\Weather App\Weather\Weather\obj\Debug\Weather.exe
+D:\Weather App\Weather\Weather\obj\Debug\Weather.pdb
+D:\Weather App\Weather\Weather\bin\Debug\FontAwesome.Sharp.dll
+D:\Weather App\Weather\Weather\bin\Debug\Guna.UI.dll
+D:\Weather App\Weather\Weather\obj\Debug\Weather.csproj.CopyComplete
