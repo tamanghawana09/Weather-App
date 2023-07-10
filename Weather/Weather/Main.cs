@@ -15,6 +15,11 @@ namespace Weather
         public Main()
         {
             InitializeComponent();
+            
+            panel2.BackColor = Color.FromArgb(5, Color.White);
+            panel4.BackColor = Color.FromArgb(5, Color.White);
+            panel6.BackColor = Color.FromArgb(5, Color.White);
+            panel8.BackColor = Color.FromArgb(5, Color.White);
         }
 
         private void iconButton1_Click(object sender, EventArgs e)
@@ -29,18 +34,8 @@ namespace Weather
 
         private void textBox1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "Start entering city name, US zip code, Canada postal code, UK postcode, ip, metar, etc.")
-            {
-                textBox1.Text = " ";
-            }
-            else if (textBox1.Text == " ")
-            {
-                textBox1.Text = "Start entering city name, US zip code, Canada postl code, UK postcode, ip, metar, etc.";
-            }
-            else
-            {
-                MessageBox.Show("Error");
-            }
+            
+            
         }
 
         private void Main_Load(object sender, EventArgs e)
@@ -49,7 +44,7 @@ namespace Weather
             timer.Interval = 1000; //1000 milliseconds
             timer.Tick += Timer_Tick;
             timer.Start();
-            comboBox1.Size = new System.Drawing.Size(223, 32);
+            
 
             label1.Text = DateTime.Now.ToString("dddd, MMMM M, yyyy");
             
@@ -63,6 +58,27 @@ namespace Weather
         private void Timer_Tick(object sender, EventArgs e)
         {
             Timer.Text = DateTime.Now.ToString("HH:MM:ss");
+        }
+
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "Start entering city name, US zip code, Canada postal code, UK postcode, ip, metar, etc.")
+            {
+                textBox1.Text = " ";
+            }
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            if (textBox1.Text == " ")
+            {
+                textBox1.Text = "Start entering city name, US zip code, Canada postl code, UK postcode, ip, metar, etc.";
+            }
+        }
+
+        private void iconButton3_MouseHover(object sender, EventArgs e)
+        {
+            iconButton3.BackColor = Color.Transparent;
         }
     }
 }
